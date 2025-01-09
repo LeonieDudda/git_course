@@ -1,0 +1,119 @@
+    1  git config --global user.name "Leonie Dudda"
+    2  git config --global user.email dudda@essb.eur.nl
+    3  git config --global init.defaultBranch main
+    4  git config --list
+    5  git config --get core.editor
+    6  git var GIT_EDITOR
+    7  vim testdoc
+    8  touch~/.git
+    9  pwd
+   10  touch ~/.git
+   11  ls
+   12  Documents
+   13  cd Documents
+   14  ls
+   15  cd Local git course folder
+   16  cd 'Local git course folder'
+   17  mkdir cityguide_git_repo
+   18  cd cityguide-git-repo
+   19  git init
+   20  git status
+   21  touch cityguide.txt
+   22  git status
+   23  git add cityguide.txt
+   24  git status
+   25  git commit -m "Add cityguide.txt file"
+   26  history > history.txt
+   27  pwd
+   28  ..
+   29  ls
+   30  ls
+   31  pwd
+   32  ls
+   33  cd Documents
+   34  cd /Users
+   35  pwd
+   36  ls
+   37  git remote -v
+   38  cd
+   39  ~/Documents
+   40  ls
+   41  cd ~/Documents
+   42  ls
+   43  cd 'Local git course folder (repo)'
+   44  git remote -v
+   45  git push -u origin main
+   46  git pull
+   47  git branch
+   48  git branch churches
+   49  git branch
+   50  git swith churches
+   51  git switch churches
+   52  touch list_of_churches
+   53  touch list_of_churches.txt
+   54  echo "I recommend visiting the Cenakelkerk" >> list_of_churches.txt
+   55  open list_of_churches.txt
+   56  start "list of churches"
+   57   echo "Cenakelkerk" >> list_of_churches.txt
+   58  git status
+   59  git add
+   60  git add list_of_churches.txt
+   61  git commit -m "added the list of churches"
+   62  git remote
+   63  git push
+   64  git status
+   65  git add city_guide_quarto.qmd
+   66  git add city_guide_quarto.html
+   67  cd main
+   68  cd ..
+   69  cd /"Local git course folder (repo)"
+   70  cd
+   71  ls
+   72  ~/Documents/Local git course folder (repo)
+   73  aaaarrrgghh
+   74  ~/Documents/"Local git course folder (repo)"
+   75  cd ~/Documents/"Local git course folder (repo)"
+   76  git swith main
+   77  git switch main
+   78  git push
+   79  git remote -v
+   80  git push -u origin main
+   81  git push -u origin churches
+   82  git clone https://github.com/LeonieDudda/git_course.git clone_copy_folder
+   83  git pull
+   84  history >> history2.txt
+   85  git status
+   86  touch example.txt
+   87  git switch churches
+   88  touch example.txt
+   89  echo "Hello" >> example.txt
+   90  git switch main
+   91  echo "Hello">> example.txt.
+   92  git merge churches
+   93  git switch churches
+   94  echo "!" >> example.txt
+   95  git switch main
+   96  merge churches
+   97  git merge churches
+   98  git branch test
+   99  git switch test
+  100  touch example.txt
+  101  echo "Helooo" >> example.txt
+  102  git switch main
+  103  git merge test
+  104  aaah
+  105  git switch test
+  106  git add
+  107  ls
+  108  huh?
+  109  git add example.txt
+  110  git commit -m "added example.txt"
+  111  git switch main
+  112  git add example.txt
+  113  ls
+  114  git status
+  115  git add example.txt
+  116  git push
+  117  git pull
+  118  git push
+  119  history > history2.txt
